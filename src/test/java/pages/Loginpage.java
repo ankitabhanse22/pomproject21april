@@ -31,6 +31,7 @@ public class Loginpage
 	}
 	public void enterpassword(String passwd)
 	{
+		System.out.println("In enterpassword method");
 		objpassword.sendKeys(passwd);
 	}
 	public void clickonlogin()
