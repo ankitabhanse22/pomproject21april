@@ -36,6 +36,7 @@ public class Loginpage
 	}
 	public void clickonlogin()
 	{
+		System.out.println("In clickonlogin method");
 		objlogin.click();
 	}
 
